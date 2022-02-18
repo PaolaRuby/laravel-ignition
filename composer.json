@@ -23,7 +23,6 @@
         "ext-mbstring": "*",
         "monolog/monolog": "^2.3",
         "spatie/ignition": "^1.0",
-        "spatie/flare-client-php": "^1.0.1",
         "symfony/console": "^5.0|^6.0",
         "symfony/var-dumper": "^5.0|^6.0",
         "illuminate/support": "^8.77|^9.0"
@@ -38,7 +37,11 @@
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan-deprecation-rules": "^1.0",
         "phpstan/phpstan-phpunit": "^1.0",
+        "spatie/flare-client-php": "^1.0.1",
         "spatie/laravel-ray": "^1.27"
+    },
+    "suggest": {
+        "spatie/flare-client-php": "Send PHP errors to Flare https://flareapp.io/docs"
     },
     "config": {
         "sort-packages": true,
